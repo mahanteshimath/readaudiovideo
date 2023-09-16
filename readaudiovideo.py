@@ -227,6 +227,7 @@ else:
                         uploaded_file_path = temp_file.name
 
                     st.markdown("File successfully uploaded!")
+                    st.balloons()
 
                     # Applying the same transcription logic as before
                     audio_url, error = upload_to_AssemblyAI(uploaded_file_path)
