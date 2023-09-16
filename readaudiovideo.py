@@ -214,7 +214,7 @@ else:
             st.title("Extract Audio or Video content to PDF or TXT")
             #link to  YouTube channel
             st.markdown(" 👉 [🎥Visit my YouTube channel for more details](https://bit.ly/atozaboutdata)")
-
+            st.markdown(" 👉 [Snowflake DCWT 2023 Bengluru keynote recording](https://drive.google.com/drive/folders/14Uj3GmjIl0IA-KPo7V0v4OwPAYUyubSJ)")
             file = st.file_uploader("Upload an audio or video file", type=["mp3", "mp4", "wav"])
 
             if file is not None:
