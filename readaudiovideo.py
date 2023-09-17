@@ -124,7 +124,7 @@ def get_analysis_results(polling_endpoint):
             break
 
 with st.sidebar:
-        st.markdown("[![Foo](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-48.png)](https://www.linkedin.com/in/mahantesh-hiremath/) If you want api key DM me APIKEY.I will send you.")        
+        st.markdown("[![Foo](https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-48.png)](https://www.linkedin.com/in/mahantesh-hiremath/) If you want api key DM me APIKEY.I will send you for a limited time.")        
         choice = st.selectbox(
         'Do you want to transcribe YouTube or Audio/Video?',
         ('YouTube','Audio/Video'))
@@ -136,14 +136,14 @@ with st.sidebar:
 if choice == 'YouTube':
         with st.sidebar:
                 st.markdown("""STEP1 : Input Api Key""")
-                st.markdown("""STEP2 : C&P youtube urls with ; take from you tube.""")
+                st.markdown("""STEP2 : C&P youtube urls with ; take from youtube.""")
                 st.markdown("""Format should be as below(notice watch?v=). More url more time it takes""")
                 st.markdown("""https://www.youtube.com/watch?v=fDE1e8sQA7I;
                             https://www.youtube.com/watch?v=TmAO9jBqJf4;
                             https://www.youtube.com/watch?v=p3HHBQ-chN4;
                             https://www.youtube.com/watch?v=6Mya4C3Yr7I;""")
-                st.markdown("""STEP3 : Press Ctrl+Enter all thumnails will appear""")
-                st.markdown("""STEP4 : You can click on any thumnail respective audio you can see also transcript will be generated.""")
+                st.markdown("""STEP3 : Press Ctrl+Enter all thumbnails will appear""")
+                st.markdown("""STEP4 : You can click on any thumbnail respective audio you can see also transcript will be generated.""")
 
 
         st.title("Extract YouTube Video content to PDF or TXT")
@@ -210,11 +210,11 @@ else:
             with st.sidebar:
                 st.markdown("""STEP1 : Input Api Key""")
                 st.markdown("""STEP2 : Upload any .mp3, .mp4 or .wav file""")
-                st.markdown("""STEP3 : Relax and see the majic begins""")
+                st.markdown("""STEP3 : Relax and see the magic begins""")
             st.title("Extract Audio or Video content to PDF or TXT")
             #link to  YouTube channel
             st.markdown(" 👉 [🎥Visit my YouTube channel for more details](https://bit.ly/atozaboutdata)")
-            st.markdown(" 👉 [Snowflake DCWT 2023 Bengluru keynote recording](https://drive.google.com/drive/folders/14Uj3GmjIl0IA-KPo7V0v4OwPAYUyubSJ)")
+            st.markdown(" 👉 [Snowflake DCWT 2023 Bengaluru Opening Keynote recording](https://drive.google.com/drive/folders/14Uj3GmjIl0IA-KPo7V0v4OwPAYUyubSJ)")
             file = st.file_uploader("Upload an audio or video file", type=["mp3", "mp4", "wav"])
 
             if file is not None:
