@@ -15,7 +15,7 @@ from streamlit_option_menu import option_menu
 
 
 st.set_page_config(
-  page_title="Convert youtube content to pdf",
+  page_title="read-audio-video",
   page_icon="  ",
   layout="wide",
   initial_sidebar_state="expanded",
